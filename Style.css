@@ -1,0 +1,111 @@
+body, html {
+    padding-top: 60px; 
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.w3-top {
+    z-index: 999; 
+}
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.quote {
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-left: 4px solid #000000;
+    font-style: italic;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./images/Paul_Watzlawick.jpg");
+    min-height: 100%;
+  }
+  
+.menu {
+    font-size: 20px; /* Taille des liens du menu */
+}
+
+h1, h2 {
+    color: #000000;
+    text-align: center;
+}
+h3 {
+    color: #000000;
+    margin-top: 30px;
+}
+p {
+    line-height: 1.8;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    body, html {
+        padding-top: 50px; /* Ajuste l'espacement pour petits écrans */
+    }
+
+    .content, .container {
+        max-width: 100%; /* Prend toute la largeur pour un affichage mobile */
+        padding: 10px; /* Réduit l'espacement interne */
+    }
+
+    .menu {
+        font-size: 16px; /* Réduit la taille des liens du menu */
+    }
+
+    h1 {
+        font-size: 28px; /* Ajuste la taille des titres principaux */
+    }
+
+    h2 {
+        font-size: 22px; /* Ajuste la taille des sous-titres */
+    }
+
+    h3 {
+        font-size: 18px; /* Ajuste les titres de niveau 3 */
+    }
+
+    p {
+        font-size: 16px; /* Réduit légèrement la taille du texte pour s'adapter aux petits écrans */
+    }
+
+    .w3-top .w3-row .w3-button {
+        font-size: 14px; /* Réduit la taille des boutons dans le menu */
+    }
+
+    .bgimg {
+        min-height: 300px; /* Réduit la hauteur de l'image de fond sur mobile */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .menu {
+        font-size: 14px; /* Réduit encore la taille des liens pour les très petits écrans */
+    }
+
+    h1 {
+        font-size: 24px; /* Réduit davantage la taille des titres principaux */
+    }
+
+    h2 {
+        font-size: 20px; /* Réduit la taille des sous-titres */
+    }
+
+    h3 {
+        font-size: 16px; /* Ajuste les titres de niveau 3 */
+    }
+
+    p {
+        font-size: 14px; /* Réduit la taille du texte pour les écrans les plus petits */
+    }
+}
